@@ -1,0 +1,4 @@
+#!/bin/bash
+# en01 = wireless interface
+
+ifconfig en1 | grep "ether" | cut -d " " -f2

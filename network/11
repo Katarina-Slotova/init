@@ -1,0 +1,10 @@
+NAT allows multiple devices to access the Internet through a single public address;
+process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts
+
+To get the IP address and name, we can use nslookup 10.60.1.1.
+
+Result: 
+Server:         10.51.1.253
+Address:        10.51.1.253#53
+
+1.1.60.10.in-addr.arpa  name = nat.hive.fi

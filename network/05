@@ -1,0 +1,4 @@
+#!/bin/bash
+# Authoritative answer = when the DNS server hosting the primary copy of the DNS record responses to your lookup
+# Non-authoritiative answer = the result was provided by a server (such as your Internet service provider) that held a cached copy of the DNS record
+nslookup who.int | grep "Server" | awk '{print $2}'
