@@ -1,0 +1,2 @@
+To change the system name permanently, it is necessary to modify the /etc/hostname file as root user
+It may also be necessary to update /etc/hosts file as it contains reference to system name

@@ -1,0 +1,3 @@
+#!/bin/bash
+# who command shows every login session open on the machine
+who

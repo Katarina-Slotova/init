@@ -1,4 +1,7 @@
 #!/bin/bash
+# nslookup - queries internet domain name servers in two modes
+# interactive mode - query name servers for information about various hosts and domains, or to print a list of the hosts in a domain
+# noninteractive mode - the names and requested information are printed for a specified host or domain
 # Authoritative answer = when the DNS server hosting the primary copy of the DNS record responses to your lookup
 # Non-authoritiative answer = the result was provided by a server (such as your Internet service provider) that held a cached copy of the DNS record
 nslookup who.int | grep "Server" | awk '{print $2}'

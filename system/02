@@ -1,0 +1,7 @@
+#!/bin/bash
+hostname new_hostname_placeholder
+
+# To change the system name, I have to be superuser
+# To become s superuser, run command: su -
+# Then change the system name by running the command hostname new_hostname_placeholder
+# To logout as superuser, run command: exit
