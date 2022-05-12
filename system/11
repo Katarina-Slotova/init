@@ -1,0 +1,4 @@
+#!/bin/bash
+# df command – shows the amount of disk space used and available on Linux file systems
+# -h = human-readable format
+df -h

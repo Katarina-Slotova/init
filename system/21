@@ -1,0 +1,5 @@
+#!/bin/bash
+cat /etc/passwd | grep home | cut -d ":" -f1
+# Currently existing human users on the system will have home directories in /home.
+# Also possible to use at /etc/passwd | ls /home | cut -d ":" -f1,
+# this one doesn't exactly return list of users, but list of directories

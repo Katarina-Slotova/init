@@ -1,0 +1,12 @@
+#!/bin/bash
+tail -f /var/log/syslog &
+# The above command sends process to the background of the current shell,
+# but the command will still print the output to STDOUT or STDERR.
+# If one doesn't need to know the output content, it is better to use:
+# tail -f /var/log/syslog &>/dev/null &
+# command above will send the output to /dev/null
+# /dev/null - a null device file, discards anything written to it, and will return EOF on reading
+# /dev/null acts as a vacuum, that sucks anything thrown to it
+
+# jobs command - show processes running in the background
+# kill %tail - to kill the process

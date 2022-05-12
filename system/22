@@ -1,0 +1,3 @@
+#!/bin/bash
+adduser placeholder_user_name
+# run the command above as root user

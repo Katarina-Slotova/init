@@ -1,0 +1,8 @@
+#!/bin/bash
+dpkg -l
+
+# Possible to use also command: apt list --installed, but dpkg -l gives neater result
+# apt (Advanced Package Tool) and dpkg (Debian Packages Manager) are similar,
+# apt is "umbrella" or frontend for dpkg
+# apt is for managing remote repositories, dpkg - for locally installed packages
+# apt-get install package gets .deb file, and installs it via dpkg

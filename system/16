@@ -1,0 +1,20 @@
+In Linux, the cron daemon runs tasks in the background at specified times.
+To schedule a task using cron, a special file called crontab must be edited in a text editor - add the task in it in a particular format.
+Then cron will run the task at the time specified in the crontab file.
+
+Edit crontab: crontab -e
+Choose editor (e.g. vim)
+Lines in the crontab are written in this format: minute(0-59) hour(0-23) day(1-31) month(1-12) weekday(0-6) command
+Asterisk can be used to match any value
+
+Example of crontab file:
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+HOME=/
+01 * * * * root run-parts /etc/cron.hourly
+02 4 * * * root run-parts /etc/cron.daily
+22 4 * * 0 root run-parts /etc/cron.weekly
+42 4 1 * * root run-parts /etc/cron.monthly
+
+run-parts executes scripts located in the directory provided as an argument (each at a different time)

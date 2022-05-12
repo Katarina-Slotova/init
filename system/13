@@ -1,0 +1,4 @@
+#!/bin/bash
+top
+# provides a dynamic real-time view of a running system
+# to quit press q

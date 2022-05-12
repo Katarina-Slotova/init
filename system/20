@@ -1,0 +1,5 @@
+#!/bin/bash
+cat /etc/passwd
+# in order to avoid discolsing any potentially sensitive information, it is better to run:
+# cat /etc/passwd | cut -d ":" -f1 (shows only the user's name)
+# because one of the fields shown (vnstat daemon) may contain user's name and contact info
