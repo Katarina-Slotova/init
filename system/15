@@ -1,5 +1,4 @@
 #!/bin/bash
-pkill -9 process_placeholder_name
-# e.g. pkill -9 tail
+pkill -9 tail
 # -9 - force terminates the process with the specified process name
 # another option: kill %tail --> results in slight difference when running jobs command after killing the process

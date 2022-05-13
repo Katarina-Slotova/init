@@ -1,4 +1,4 @@
 #!/bin/bash
-service ssh stop
+sudo service ssh stop
 # run the command above as root user
 # alternative: /etc/init.d/ssh stop

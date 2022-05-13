@@ -1,4 +1,4 @@
 #!/bin/bash
-systemctl list-units --type service
+systemctl list-units --type service --all
 # systemctl - central management utility that controls the systemd system (i.e. suite of basic building blocks for a Linux system), manages the services and examine the system state
 # systemctl list-units displays, by default, only active units

@@ -1,0 +1,6 @@
+#!/bin/bash
+cat /etc/passwd | awk -F: '{print $1 $3 $7}'
+# -F <value> - tells awk what field separator to use. -F: means that the separator is colon.
+# field 6 is Home directory: This field contains the absolute path of the user’s home directory.
+# field 7 is Login shell: This field store the absolute path of the user shell. This shell is started when the user is log in to the system.
+# It is my assumption, that in the subject they mean login shell by the "Path".

@@ -1,7 +1,7 @@
 #!/bin/bash
-hostname new_hostname_placeholder
+sudo hostname newdebian
 
 # To change the system name, I have to be superuser
 # To become s superuser, run command: su -
-# Then change the system name by running the command hostname new_hostname_placeholder
+# Then change the system name by running the command hostname newdebian
 # To logout as superuser, run command: exit
