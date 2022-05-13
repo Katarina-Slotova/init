@@ -2,8 +2,9 @@
 
 # -a = display all current ARP entries
 # en0 = ethernet interface
+# grep -v "?" - goes line by line, and outputs only the lines in which ? does not appear
 
 # ARP stands for “Address Resolution Protocol", the “arp -a” command displays all active IP addresses connected to the local network.
 # This list is incredibly informative, containing the IP addresses, MAC addresses, and allocation type (whether static or dynamic) for all live hosts.
 
-ping $(ifconfig en0 | grep "broadcast" | cut -d " " -f6) -c 1 && arp -a | cut -d "(" -f2 | cut -d ")" -f1
+ping $(ifconfig en0 | grep "broadcast" | cut -d " " -f6) -c 1 && arp -a | grep -v "?" | cut -d "(" -f2 | cut -d ")" -f1

@@ -6,4 +6,4 @@
 
 # netstat -nr | grep "default" | head -1
 
-route -n get default
+route -n get default | grep "gateway" | cut -d ":" -f2
