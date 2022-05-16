@@ -1,4 +1,5 @@
 #!/bin/bash
+# Name the command that find, in real time, currently running processes.
 top
 # provides a dynamic real-time view of a running system
 # to quit press q

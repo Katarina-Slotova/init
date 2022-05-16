@@ -1,3 +1,4 @@
 #!/bin/bash
-# who command shows every login session open on the machine
+# What command lets you know who is connected to the System?
 who
+# who command shows every login session open on the machine

@@ -1,4 +1,5 @@
 #!/bin/bash
+# Name the command that displays the available space left and used on the system in an humanly understandable way
+df -h
 # df command – shows the amount of disk space used and available on Linux file systems
 # -h = human-readable format
-df -h

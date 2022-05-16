@@ -1,3 +1,5 @@
+What file contains the local DNS entries?
+
 /etc/hosts
 The Hosts file is a simple text file that contains lines that match IP addresses with host names
 The Hosts file is always checked before DNS is used

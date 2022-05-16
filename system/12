@@ -1,4 +1,5 @@
 #!/bin/bash
+# Figure out the exact size of each folder of /var in a humanly understandable way followed by the path of it.
 sudo du -sh /var/*
 # Run the command above as root user
 # s - display the total size of the specified directory, do not display file size totals for subdirectories

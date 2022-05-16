@@ -1,2 +1,4 @@
+Explain how connect yourself as new user. (With graphic session and ssh session).
+
 How to connect yourself as new user with graphic session: open Virtualbox, launch virtual machine, type your login, type your password.
 How to connect yourself as new user with ssh session: open terminal, write command ssh -p 3022 username@host_IP_address, type password.

@@ -1,5 +1,6 @@
 #!/bin/bash
-# command that shows for how long the system has been up and running since the last boot
+# What command gives you the time since your system was last booted?
 uptime
+# command that shows for how long the system has been up and running since the last boot
 # last reboot - all the previous reboot date and time for the system
 # who -b - the last system reboot date and time

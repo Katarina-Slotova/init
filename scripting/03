@@ -1,4 +1,5 @@
 #!/bin/bash
+# Three’s a Charm. Write a script of you choice.
 echo "Welcome to Love Crush Calculator!"
 echo "Enter your name: "
 read name1

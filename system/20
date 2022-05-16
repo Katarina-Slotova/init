@@ -1,4 +1,5 @@
 #!/bin/bash
+# List all existing users on the VM.
 cat /etc/passwd
 # in order to avoid discolsing any potentially sensitive information, it is better to run:
 # cat /etc/passwd | cut -d ":" -f1 (shows only the user's name)

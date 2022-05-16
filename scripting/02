@@ -1,8 +1,10 @@
 #!/bin/bash
+# Write a script which delete an ACTIVE user on the VM.
 echo "Enter username: "
 read name
 sudo pkill -u $name
 sudo userdel $name
+
 # run the commands above as root user
 # command removes the user entries from the /etc/passwd and /etc/shadow files
 # to check whether the command worked, run: cat /etc/passwd | grep deleted_user's_username

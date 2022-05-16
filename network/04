@@ -1,9 +1,10 @@
 #!/bin/bash
+# Identifiy the default gateway in the routing table
+route -n get default | grep "gateway" | cut -d ":" -f2
+
 # Routing (packet forwarding) enables a computer to communicate with other computers that are not on the same network or subnet.
 # Router is connected to at least two networks and makes decisions about where to send the packets it receives based on the destination address.
 # A gateway is the entrance point to another network. 
 # A default gateway is the address to which packets are sent if there is no specific gateway for a given destination listed in the routing table.
 
-# netstat -nr | grep "default" | head -1
-
-route -n get default | grep "gateway" | cut -d ":" -f2
+# Anither option: netstat -nr | grep "default" | head -1

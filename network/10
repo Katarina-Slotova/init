@@ -1,4 +1,6 @@
 #!/bin/bash
+# Identify the network devices between your computer and the who.int domain
+traceroute who.int
+
 # traceroute uses Internet Control Message Protocol's Ping command 
 # to find out how many different devices are between the computer initiating the traceroute and the target
-traceroute who.int

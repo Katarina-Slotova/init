@@ -1,7 +1,8 @@
 #!/bin/bash
+# Name the command that lists the partition tables of drives?
+sudo fdisk -l
 # fdisk command (stands for Format-disk or Fixed-disk) is used to create or delete hard disk partitions.
 # When used with -l flag, it lists the partitions table of specified device/logical partition. If no device name is mentioned, fdisk uses the devices/logical partitions mentioned in the /proc/partitions file.
-fdisk -l
 # run the command above as root user
 
 # Data is not stored in hard disk partitions. File systems are stored in hard disk partitions and data is stored in these file systems.

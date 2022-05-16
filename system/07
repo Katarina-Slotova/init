@@ -1,7 +1,8 @@
 #!/bin/bash
-# PID (Process ID) = created at SSHD startup time; read from the file and used to identify the sshd to terminate
+# Figure out the PID of the SSHD service.
 cat /var/run/sshd.pid
 
+# PID (Process ID) = created at SSHD startup time; read from the file and used to identify the sshd to terminate
 # SSHD = Secure Shell Daemon application, daemon program for ssh 
 # SSHD provides encrypted communications between two untrusted hosts over an insecure network
 # SSHD is the daemon that listens for connections from clients on port 22

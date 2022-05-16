@@ -1,4 +1,3 @@
-#!/bin/bash
-# Location of IP address of my DNS server
-/etc/resolv.conf
-# Get the contents: cat /etc/resolv.conf, less /etc/resolv.conf
+Get the complete path of the file that contains the IP address of the DNS server you’re using
+Location of IP address of my DNS server: /etc/resolv.conf
+Get the contents: cat /etc/resolv.conf, less /etc/resolv.conf

@@ -1,3 +1,4 @@
 #!/bin/bash
+# Find the command that add a new local user.
 sudo adduser marvin
 # must run the command above as root user

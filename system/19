@@ -1,4 +1,5 @@
 #!/bin/bash
+# List all services which are started at boot time and name this kind of services.
 systemctl list-units --type service --all
 # systemctl - central management utility that controls the systemd system (i.e. suite of basic building blocks for a Linux system), manages the services and examine the system state
 # systemctl list-units displays, by default, only active units

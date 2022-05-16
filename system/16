@@ -1,9 +1,11 @@
+Find the service which makes it possible to run specific tasks following a regular schedule.
+
 In Linux, the cron daemon runs tasks in the background at specified times.
 To schedule a task using cron, a special file called crontab must be edited in a text editor - add the task in it in a particular format.
 Then cron will run the task at the time specified in the crontab file.
 
 Edit crontab: crontab -e
-Choose editor (e.g. vim)
+Choose editor (e.g. nano, vim)
 Lines in the crontab are written in this format: minute(0-59) hour(0-23) day(1-31) month(1-12) weekday(0-6) command
 Asterisk can be used to match any value
 

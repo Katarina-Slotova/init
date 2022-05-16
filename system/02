@@ -1,4 +1,5 @@
 #!/bin/bash
+# What command can you use to rename your system?
 sudo hostname newdebian
 
 # To change the system name, I have to be superuser

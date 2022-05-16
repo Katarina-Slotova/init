@@ -1,4 +1,5 @@
 #!/bin/bash
+# Find the command that list all packages.
 dpkg -l
 
 # Possible to use also command: apt list --installed, but dpkg -l gives neater result
