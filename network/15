@@ -1,4 +1,4 @@
-Make the intra.42.fr address reroute to 46.19.122.85
+Make the intra.42.fr address reroute to 46.19.122.85.
 
 To reroute a webiste, it is necessary to:
 a) put an entry to the Hosts file, i.e. the file /etc/hosts must be edited (possible in text editor); achieve it by

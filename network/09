@@ -1,3 +1,4 @@
 Find the external IP of 42.fr.
+
 Find external IP address of 42.fr by using command: nslookup 42.fr
 Result is: 163.172.250.16
